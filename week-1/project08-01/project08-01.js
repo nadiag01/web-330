@@ -55,7 +55,7 @@ function countdown(timer,minBox,secBox)
     secBox.value = timer.seconds;
 
 }
-
++0
 /*---------------Interface Code -----------------*/
 
 /* Interface Objects */
