@@ -21,4 +21,20 @@ let region = document.getElementById("region");
 let miles = document.getElementById("miles");
 let comments = document.getElementById("comments");
 
+const name =sessionStorage.getItem("riderName")
+const age =sessionStorage.getItem("ageGroup")
+const bike =sessionStorage.getItem("bikeOption")
+const route =sessionStorage.getItem("routeOption")
+const acc=sessionStorage.getItem("accOption")
+const place=sessionStorage.getItem("region")
+const mile=sessionStorage.getItem("miles")
+const comment=sessionStorage.getItem("comments")
 
+riderName.textContent = name
+ageGroup.textContent = age
+bikeOption.textContent =bike
+routeOption.textContent =route
+accOption.textContent =acc
+region.textContent =place
+miles.textContent =mile
+comments.textContent =comment
